@@ -177,6 +177,11 @@ GNSS data source:
 *mahmoudreshadati@vt.edu*
 
 ---
+## How to Cite
+If you use this software, please cite:
 
+Reshadati, M. (2026). *InSAR-Local2Global* (Version 1.0.1) [MATLAB code]. Zenodo. https://doi.org/10.5281/zenodo.19187890
+
+---
 ## License
 This project is licensed under the BSD 3-Clause License. See the [LICENSE](LICENSE) file for details.

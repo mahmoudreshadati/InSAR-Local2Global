@@ -10,7 +10,11 @@ authors:
 repository-code: "https://github.com/mahmoudreshadati/InSAR-Local2Global"
 url: "https://github.com/mahmoudreshadati/InSAR-Local2Global"
 license: "BSD-3-Clause"
-version: "1.0.0"
+version: "1.0.2"
+doi: "10.5281/zenodo.19187890"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19187890"
 date-released: 2026-03-23
 keywords:
   - InSAR
