@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "InSAR-Local2Global"
+abstract: "MATLAB workflow for model-based transforming local InSAR-derived VLM into a global reference frame using weighted least-squares correction with uncertainty propagation."
+type: software
+authors:
+  - family-names: "Reshadati"
+    given-names: "Mahmoud"
+    email: "mahmoudreshadati@vt.edu"
+repository-code: "https://github.com/mahmoudreshadati/InSAR-Local2Global"
+url: "https://github.com/mahmoudreshadati/InSAR-Local2Global"
+license: "BSD-3-Clause"
+version: "1.0.0"
+date-released: 2026-03-23
+keywords:
+  - InSAR
+  - vertical land motion
+  - GNSS
+  - MIDAS
+  - MATLAB
+  - geodesy
+  - remote sensing
