@@ -7,9 +7,9 @@ Author: Mahmoud Reshadati (mahmoudreshadati@vt.edu)
 
 ## Overview
 
-This repository provides a complete MATLAB workflow for converting **local InSAR-derived vertical land motion (VLM)** into the **IGS20 global reference frame** by integrating sparse GNSS measurements from the [MIDAS dataset](https://geodesy.unr.edu). The pipeline handles everything from downloading global GNSS data to spatially interpolating station velocities over dense InSAR pixel grids and applying a statistically rigorous polynomial correction.
+This repository provides a MATLAB workflow for model-based conversion of **local InSAR-derived vertical land motion (VLM)** into the **IGS20 global reference frame** by integrating sparse GNSS measurements from the [MIDAS dataset](https://geodesy.unr.edu). The pipeline handles everything from downloading global GNSS data to spatially interpolating station velocities over dense InSAR pixel grids and applying a rigorous polynomial correction.
 
-The method is designed for large-scale InSAR datasets (millions of pixels) and includes memory-managed processing, outlier rejection, and complete covariance-based uncertainty propagation.
+The method is designed for large-scale InSAR datasets (millions of pixels) and includes memory-managed processing, outlier rejection, and covariance-based uncertainty propagation.
 
 ---
 
@@ -57,7 +57,7 @@ $$V_{\text{global},i} = V_{\text{local},i} + \mathbf{B}_i \hat{\boldsymbol{\beta
 
 Uncertainty propagation is complete and accounts for the covariance between the InSAR input and the fitted correction:
 
-$$\text{Var}(V_{\text{global},i}) = \sigma^2_{\text{InSAR},i} + \text{Var}(\text{correction}_i) + 2\,\text{Cov}(V_{\text{local},i},\, \text{correction}_i)$$
+$$\text{Var}(V_{\text{global},i}) = \sigma^2_{\text{InSAR},i} + \text{Var}(\text{correction}_i) + 2\,\text{Cov}(V_{\text{local},i}\, \text{correction}_i)$$
 
 ---
 
