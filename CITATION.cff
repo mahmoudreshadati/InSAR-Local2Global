@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "InSAR-Local2Global"
-abstract: "MATLAB workflow for model-based transforming local InSAR-derived VLM into a global reference frame using weighted least-squares correction with uncertainty propagation."
+abstract: "MATLAB workflow for model-based transformation of local InSAR-derived VLM into a global reference frame using weighted least-squares correction with uncertainty propagation."
 type: software
 authors:
   - family-names: "Reshadati"

@@ -179,5 +179,4 @@ GNSS data source:
 ---
 
 ## License
-
-This project is released for academic and research use. Please contact the author for commercial licensing inquiries.
+This project is licensed under the BSD 3-Clause License. See the [LICENSE](LICENSE) file for details.
